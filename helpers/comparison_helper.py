@@ -1,0 +1,58 @@
+"""
+----------------------------------------------------------------------------------------------------------
+Description:
+
+usage: Data Comparison Methods
+
+Author  : Adil Qayyum
+
+Modification Log:
+
+How to execute:
+-----------------------------------------------------------------------------------------------------------
+Date                Author              Story               Description
+-----------------------------------------------------------------------------------------------------------
+05/8/2019        Adil Qayyum                              Initial draft.
+
+-----------------------------------------------------------------------------------------------------------
+"""
+
+
+def compare_dataframes(df1, df2):
+    """
+    Compare two dataframes by applying similar sorting and row indexes.
+    :param df1: Source Data Frame.
+    :param df2: Target Data Frame.
+    """
+    try:
+        columns = df1.columns
+
+        if len(columns) == 1:
+            # Sorting of Data frames on common column
+            df1 = df1.sort_values([columns[0]], ascending=[1])
+            df2 = df2.sort_values([columns[0]], ascending=[1])
+        else:
+            # Sorting of Data frames on common column
+            df1 = df1.sort_values([columns[0], columns[1]], ascending=[1, 1])
+            df2 = df2.sort_values([columns[0], columns[1]], ascending=[1, 1])
+
+        # Reindexing of Columns for Data frames
+        df1 = df1.reindex(sorted(df1.columns), axis=1)
+        df2 = df2.reindex(sorted(df2.columns), axis=1)
+
+        # Resetting the Row Index for Data frames
+        df1 = df1.reset_index(drop=True)
+        df2 = df2.reset_index(drop=True)
+
+        # Change Data types to Object
+        df1 = df1.astype(str)
+        df2 = df2.astype(str)
+        # Comparing Data frames
+        print(df1)
+        print(df2)
+        result = df1.equals(df2)
+
+        return result
+    except Exception as e:
+        return e
+

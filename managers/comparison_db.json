@@ -1,0 +1,30 @@
+{
+	"mysql": {
+      "connection": {
+        "user": "taimoorpasha",
+        "password": "Test1234",
+        "host": "10.10.0.71",
+        "port": "3306",
+        "database": "sakila"
+
+      },
+      "data": {
+      "database": "sakila",
+        "table": "actor"
+      }
+    },
+  "postgresql": {
+      "connection": {
+        "user": "postgres_user",
+        "password": "Test@12345",
+        "host": "10.10.10.124",
+        "port": "5432",
+        "database": "postgres"
+
+      },
+      "data": {
+      "database": "postgres",
+        "table": "actor"
+      }
+    }
+}

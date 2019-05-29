@@ -1,0 +1,29 @@
+{
+	"query1": {
+      "database": "db1",
+      "table": "tbl1",
+      "select": {
+        "column1": {
+          "function": ""
+        },
+        "column2": {
+          "function": "SUM"
+        }
+      },
+      "where": {
+        "column1": {
+          "value": "123",
+          "operator": "=",
+          "operation": "AND"
+
+        },
+        "column2": {
+          "value": "123",
+          "operator": "=",
+          "operation": "OR"
+
+        }
+
+      }
+    }
+}

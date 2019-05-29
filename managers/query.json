@@ -1,0 +1,9 @@
+{
+	"query1": {
+      "database": "",
+      "table": "city",
+      "select": {
+      },
+      "where": {}
+    }
+}

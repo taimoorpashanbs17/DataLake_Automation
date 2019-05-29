@@ -1,0 +1,13 @@
+{
+	"s3": {
+      "data": {
+      "bucket": "testqabuck",
+        "filename": "actor_post.csv"
+      }
+    },
+  "athena": {
+      "query": "select * from city",
+      "bucket": "ghufranathena1",
+    "output_location": "s3://ghufranathena1/Test"
+  }
+}

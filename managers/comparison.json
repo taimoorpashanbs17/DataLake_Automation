@@ -1,0 +1,22 @@
+{
+	"s3": {
+      "data": {
+      "bucket": "testqabuck",
+        "filename": "actor_post.csv"
+      }
+    },
+  "postgresql": {
+      "connection": {
+        "user": "postgres_user",
+        "password": "Test@12345",
+        "host": "10.10.10.124",
+        "port": "5432",
+        "database": "postgres"
+
+      },
+      "data": {
+      "database": "postgres",
+        "table": "actor"
+      }
+    }
+}
