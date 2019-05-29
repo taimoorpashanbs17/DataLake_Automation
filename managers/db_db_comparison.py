@@ -1,21 +1,4 @@
-"""
-----------------------------------------------------------------------------------------------------------
-Description:
 
-usage: DB to DB data comparison method
-
-Author  : Ghufran Ahmad
-
-Modification Log:
-
-How to execute:
------------------------------------------------------------------------------------------------------------
-Date                Author              Story               Description
------------------------------------------------------------------------------------------------------------
-05/27/2019        Ghufran Ahmad                              Initial draft.
-
------------------------------------------------------------------------------------------------------------
-"""
 import helpers.db_helper as db
 import helpers.comparison_helper as comparison
 import json

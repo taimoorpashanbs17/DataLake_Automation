@@ -1,21 +1,4 @@
-"""
-----------------------------------------------------------------------------------------------------------
-Description:
 
-usage: MongoDB Helper Methods
-
-Author  : Taimoor Pasha
-
-Modification Log:
-
-How to execute:
------------------------------------------------------------------------------------------------------------
-Date                Author              Story               Description
------------------------------------------------------------------------------------------------------------
-05/16/2019        Taimoor Pasha                          Initial draft.
-
------------------------------------------------------------------------------------------------------------
-"""
 from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
 import pandas as pd

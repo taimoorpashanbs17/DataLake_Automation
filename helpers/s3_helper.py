@@ -1,22 +1,4 @@
-"""
-----------------------------------------------------------------------------------------------------------
-Description:
 
-usage: S3 Helper Methods
-
-Author  : Muhammad Atif
-
-Modification Log:
-
-How to execute:
------------------------------------------------------------------------------------------------------------
-Date                Author              Story               Description
------------------------------------------------------------------------------------------------------------
-05/6/2019        Muhammad Atif                            Initial draft.
-05/8/2019        Adil Qayyum                              Baseline Script & modification of comments.
-05/22/2019       Ghufran Ahmad                            Baseline Script
------------------------------------------------------------------------------------------------------------
-"""
 
 import boto3
 import json

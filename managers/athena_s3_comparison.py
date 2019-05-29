@@ -1,21 +1,4 @@
-"""
-----------------------------------------------------------------------------------------------------------
-Description:
 
-usage: S3 to Athena data comparison method
-
-Author  : Ghufran Ahmad
-
-Modification Log:
-
-How to execute:
------------------------------------------------------------------------------------------------------------
-Date                Author              Story               Description
------------------------------------------------------------------------------------------------------------
-05/29/2019        Ghufran Ahmad                              Initial draft.
-
------------------------------------------------------------------------------------------------------------
-"""
 import helpers.s3_helper as s3
 import helpers.athena_helper as athena
 import helpers.comparison_helper as comparison

@@ -1,23 +1,3 @@
-"""
-----------------------------------------------------------------------------------------------------------
-Description:
-
-usage: Cassandra Helper Methods
-
-Author  : Fahad Anayat Khan
-Release : 1
-
-Modification Log:
-
-How to execute:
------------------------------------------------------------------------------------------------------------
-Date                Author              Story               Description
------------------------------------------------------------------------------------------------------------
-05/15/2019       Fahad Anayat Khan                        Initial draft.
------------------------------------------------------------------------------------------------------------
-"""
-from cassandra.cluster import Cluster
-import pandas as pd
 
 
 class CassandraHelper:

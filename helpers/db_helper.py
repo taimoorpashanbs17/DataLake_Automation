@@ -1,22 +1,4 @@
-"""
-----------------------------------------------------------------------------------------------------------
-Description:
 
-usage: DB Helper Methods
-
-Author  : Fahad Anayat Khan/Ghufran Ahmad
-
-Modification Log:
-
-How to execute:
------------------------------------------------------------------------------------------------------------
-Date                Author              Story               Description
------------------------------------------------------------------------------------------------------------
-05/8/2019        Fahad Anayat Khan                          Initial draft.
-05/8/2019        Ghufran Ahmad                              Initial draft.
-
------------------------------------------------------------------------------------------------------------
-"""
 import sqlalchemy as db
 import pandas as pd
 import json
